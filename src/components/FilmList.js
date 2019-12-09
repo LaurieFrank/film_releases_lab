@@ -9,6 +9,7 @@ class FilmList extends Component{
       return (
         <Film
         name={film.name}
+        url={film.url}
         key={film.id}
         >
         </Film>
